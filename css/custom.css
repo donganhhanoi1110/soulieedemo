@@ -5,6 +5,13 @@
 @import url(http://fonts.googleapis.com/css?family=Alegreya);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://fonts.googleapis.com/css?family=Marck+Script);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@font-face {
+font-family: 'Myriad Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Myriad Pro Regular'), url('myriad-pro/MYRIADPRO-REGULAR.woff') format('woff');
+}
 /*----------------------------------------------------------------------------------------------
  global
 -----------------------------------------------------------------------------------------------*/
@@ -415,6 +422,124 @@ back to top
 {
     padding-top: 16px;
 }
+
+.no-pad {
+	padding: 0;
+}
+
+#timeline-menu {
+	display: none;
+}
+
+#myTimeline h2 {
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	color: #020621;
+	font-size: 22px;
+}
+#myTimeline {
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	color: #020621;
+	text-align: left;
+}
+
+#myTimeline p {
+	text-align: left;
+}
+
+#myTimeline .panel-body {
+	padding-top: 0;
+}
+
+#myTimeline .highlighted {
+	background-color: #00a3c7;
+	color: #fff;
+}
+
+#myTimeline .highlighted .badge {
+	background-color: #333434 !important;
+}
+
+#myTimeline .highlighted h2 {
+	color: #fff;
+}
+
+#myTimeline .highlighted-ed {
+	background-color: #f96d00;
+	color: #fff;
+}
+
+#myTimeline .highlighted-ed .badge {
+	background-color: #333434 !important;
+}
+
+#myTimeline .highlighted-ed h2 {
+	color: #fff;
+}
+
+#my-tabs {
+	padding-top: 10px;
+	font-family: 'Lora', serif;
+	background-color: #fff;
+	position: absolute;
+	right: 30px;
+	border-radius: 6px;
+}
+
+#my-tabs>li.active>a, #my-tabs>li.active>a:hover, #my-tabs>li.active>a:focus {
+	
+	background-color: #00a3c7;
+}
+
+#aboutUs {
+	font-family: 'Lora', serif;
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 10px;
+	width: 80%;
+	background-color: #2d4042;
+	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+#aboutUs b {
+	font-weight: bold 700 Italic;
+}
+
+#aboutUs h2 {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.myCaption {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.cover {
+	width: 100%;
+	border-radius: 6px;
+}
+
+.aboutUsContainer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: none;
+	font-size: 16px;
+}
+
 /*-------------------------------------------------------------------------------------------------
 media query for responsive
 ---------------------------------------------------------------------------------------------------*/
@@ -434,6 +559,9 @@ media query for responsive
     {
         font-size: 30px;
     }
+    #aboutUs {
+    width: 95%;
+    }
 }
 @media (max-width: 579px) and (min-width: 400px)
 {
@@ -449,6 +577,9 @@ media query for responsive
     .carousel-inner > .item > img 
     {
         height: 750px;
+    }
+    #aboutUs {
+    width: 95%;
     }
 }
 @media all and (max-width: 399px)
@@ -478,45 +609,7 @@ media query for responsive
         padding: 0;
         line-height: 1;
     }
-}
-
-.no-pad {
-	padding: 0;
-}
-
-#timeline-menu {
-	display: none;
-}
-
-#myTimeline h2 {
-	font-family: "Tiempos", Georgia, serif;
-	font-weight: normal;
-	color: #020621;
-}
-#myTimeline {
-	font-family: "Tiempos", Georgia, serif;
-	font-weight: normal;
-	color: #020621;
-	text-align: left;
-}
-
-#myTimeline p {
-	text-align: left;
-}
-
-#myTimeline .panel-body {
-	padding-top: 0;
-}
-
-#myTimeline .highlighted {
-	background-color: #00a3c7;
-	color: #fff;
-}
-
-#myTimeline .highlighted .badge {
-	background-color: #333434 !important;
-}
-
-#myTimeline .highlighted h2 {
-	color: #fff;
+    #aboutUs {
+    width: 95%;
+    }
 }

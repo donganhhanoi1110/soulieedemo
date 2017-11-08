@@ -9,8 +9,8 @@
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<title>Souliee</title>
 
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/timer.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 		<script type="text/javascript" src="js/jquery-albe-timeline.js"></script>
@@ -124,7 +124,15 @@
 				</div>
 			</div><!-- end of subscribe -->
 			<div class= "container after-slide">
-			<div id="myTimeline">
+			<ul class="nav nav-pills" id="my-tabs">
+				<li class="active"><a data-toggle="pill" href="#myTimeline">Timeline</a></li>
+				<li><a data-toggle="pill" href="#aboutUs">About Us</a></li>
+			</ul>
+			<div class="tab-content">
+				<div id="myTimeline" class="tab-pane fade in active">
+				</div>
+				<div id="aboutUs" class="tab-pane fade out jumbotron">
+				</div>
 			</div>
 		</div><!-- end of after slide part -->
 

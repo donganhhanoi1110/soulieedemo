@@ -9,9 +9,9 @@ on 10/20/2007 to a new format, and 1/10/2010 to include
 time zone offset.
 */
 
-var current="Winter is here!";   //-->enter what you want the script to display when the target date and time are reached, limit to 20 characters
+var current="";   //-->enter what you want the script to display when the target date and time are reached, limit to 20 characters
 var year=2017;    //-->Enter the count down target date YEAR
-var month=11;      //-->Enter the count down target date MONTH
+var month=12;      //-->Enter the count down target date MONTH
 var day=1;       //-->Enter the count down target date DAY
 var hour=12;      //-->Enter the count down target date HOUR (24 hour clock)
 var minute=00;    //-->Enter the count down target date MINUTE
